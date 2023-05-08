@@ -1,0 +1,22 @@
+.Filter__label {
+display: flex;
+flex-direction: column;
+font-weight: 600;
+}
+
+.Filter__input {
+width: 200px;
+margin-top: 15px;
+outline: none;
+padding-left: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+border: 2px solid #000;
+transition: border 250ms linear;
+}
+
+
+
+.Filter__input:focus {
+border: 2px solid #476b93;
+}

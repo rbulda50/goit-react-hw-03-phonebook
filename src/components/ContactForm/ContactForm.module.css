@@ -1,0 +1,50 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px;
+    width: 300px;
+}
+
+.Form__label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.Form__label + .Form__label {
+    margin-top: 20px;
+}
+
+.Form__input {
+    width: 200px;
+    margin-top: 10px;
+    height: 25px;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 2px solid #000;
+    transition: border 250ms linear;
+}
+
+.Form__input:focus {
+    border: 2px solid #476b93;
+}
+
+.Form__button {
+    width: 100px;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 250ms linear;
+}
+
+.Form__button:hover {
+    background-color: #476b93;
+    color: #fff;
+    border: 1px solid transparent;
+}
