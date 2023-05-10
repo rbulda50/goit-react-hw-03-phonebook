@@ -91,9 +91,9 @@ export class App extends Component {
         <Filter
           filter={filter}
           changeFilter={this.changeFilter} />
-        <ContactList
+        {this.state.contacts.length > 0 && <ContactList
           visibleContacts={visibleContacts}
-          deleteContact={this.onDeleteContact} />
+          deleteContact={this.onDeleteContact} />}
       </div>
     );
   };
